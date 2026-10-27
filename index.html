@@ -1,0 +1,460 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Nashy Haven Stays offers furnished apartments for short and long stays in Kilimani, Nairobi."
+    />
+    <title>Nashy Haven Stays | Furnished Apartments in Kilimani</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header class="header">
+      <nav class="navbar container">
+        <a href="#home" class="logo"
+          >Nashy<span>Haven</span><small>STAYS</small></a
+        >
+
+        <button
+          class="menu-toggle"
+          id="menuToggle"
+          aria-label="Toggle navigation"
+          aria-expanded="false"
+        >
+          ☰
+        </button>
+
+        <div class="nav-links" id="navLinks">
+          <a href="#home">Home</a>
+          <a href="#about">About</a>
+          <a href="#apartments">Apartments</a>
+          <a href="#amenities">Amenities</a>
+          <a href="#booking" class="nav-book">Book Your Stay</a>
+        </div>
+      </nav>
+    </header>
+
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content container">
+        <span class="eyebrow">WELCOME TO NASHY HAVEN STAYS</span>
+        <h1>Your Home Away <em>From Home.</em></h1>
+        <p>
+          Beautifully furnished apartments in Kilimani, Nairobi. Thoughtful
+          comfort for short getaways and extended stays.
+        </p>
+
+        <div class="hero-buttons">
+          <a href="#apartments" class="btn btn-primary">Explore Apartments →</a>
+          <a href="#booking" class="btn btn-outline">Book Your Stay</a>
+        </div>
+
+        <div class="hero-details">
+          <span>⌖ Kilimani, Nairobi</span>
+          <span>✦ Short & Long Stays</span>
+          <span>✧ Fully Furnished</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRO -->
+    <section id="about" class="section about">
+      <div class="container about-grid">
+        <div class="about-image">
+          <img
+            src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=1200&q=85"
+            alt="Comfortable furnished apartment living room"
+            loading="lazy"
+          />
+          <div class="image-label">STAY BEAUTIFULLY</div>
+        </div>
+
+        <div class="about-text">
+          <span class="section-label">THE NASHY HAVEN EXPERIENCE</span>
+          <h2>Stay a Little.<br /><em>Stay a While.</em></h2>
+          <p>
+            Whether you're visiting Nairobi for a weekend, a business trip, or
+            an extended stay, Nashy Haven Stays offers a comfortable space to
+            settle in and feel at home.
+          </p>
+          <p>
+            Enjoy furnished accommodation in Kilimani with convenient access to
+            everyday essentials and modern amenities.
+          </p>
+
+          <div class="stay-options">
+            <div>
+              <strong>Short Stays</strong>
+              <span>Perfect for weekend breaks and business trips.</span>
+            </div>
+            <div>
+              <strong>Long Stays</strong>
+              <span>Comfortable living for extended visits.</span>
+            </div>
+          </div>
+
+          <a href="#booking" class="text-link">Plan your stay →</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- APARTMENTS -->
+    <section id="apartments" class="section apartments">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-label">YOUR PERFECT STAY</span>
+            <h2>Explore Our <em>Apartments</em></h2>
+          </div>
+          <p>
+            Discover comfortable furnished living spaces for every kind of
+            visit.
+          </p>
+        </div>
+
+        <div class="apartment-grid">
+          <!-- SAMPLE LISTING 1 -->
+          <article class="apartment-card">
+            <div class="apartment-image">
+              <img
+                src="https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1000&q=85"
+                alt="Sample studio apartment interior"
+                loading="lazy"
+              />
+              <span class="tag">SHORT & LONG STAYS</span>
+            </div>
+            <div class="apartment-info">
+              <span class="location">⌖ Kilimani, Nairobi</span>
+              <h3>Cozy Studio Apartment</h3>
+              <p>
+                A stylish, welcoming space ideal for solo travelers and couples.
+              </p>
+              <div class="features">
+                <span>Wi-Fi</span><span>Smart TV</span><span>Netflix</span>
+              </div>
+              <div class="card-bottom">
+                <div>
+                  <small>Sample rate from</small
+                  ><strong>KSh 4,500 <span>/ night</span></strong>
+                </div>
+                <a
+                  href="#booking"
+                  class="btn btn-dark book-apartment"
+                  data-apartment="Cozy Studio Apartment"
+                  >Inquire →</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- SAMPLE LISTING 2 -->
+          <article class="apartment-card">
+            <div class="apartment-image">
+              <img
+                src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=85"
+                alt="Sample one bedroom apartment interior"
+                loading="lazy"
+              />
+              <span class="tag">POPULAR CHOICE</span>
+            </div>
+            <div class="apartment-info">
+              <span class="location">⌖ Kilimani, Nairobi</span>
+              <h3>Elegant One-Bedroom</h3>
+              <p>
+                A comfortable furnished retreat for work, rest and relaxation.
+              </p>
+              <div class="features">
+                <span>Wi-Fi</span><span>Gym</span><span>Lift</span>
+              </div>
+              <div class="card-bottom">
+                <div>
+                  <small>Sample rate from</small
+                  ><strong>KSh 6,500 <span>/ night</span></strong>
+                </div>
+                <a
+                  href="#booking"
+                  class="btn btn-dark book-apartment"
+                  data-apartment="Elegant One-Bedroom"
+                  >Inquire →</a
+                >
+              </div>
+            </div>
+          </article>
+
+          <!-- SAMPLE LISTING 3 -->
+          <article class="apartment-card">
+            <div class="apartment-image">
+              <img
+                src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=85"
+                alt="Sample spacious apartment interior"
+                loading="lazy"
+              />
+              <span class="tag">EXTENDED STAYS</span>
+            </div>
+            <div class="apartment-info">
+              <span class="location">⌖ Kilimani, Nairobi</span>
+              <h3>Spacious Two-Bedroom</h3>
+              <p>
+                Extra room to unwind, perfect for families and longer visits.
+              </p>
+              <div class="features">
+                <span>Wi-Fi</span><span>Smart TV</span><span>Gym</span>
+              </div>
+              <div class="card-bottom">
+                <div>
+                  <small>Sample rate from</small
+                  ><strong>KSh 9,500 <span>/ night</span></strong>
+                </div>
+                <a
+                  href="#booking"
+                  class="btn btn-dark book-apartment"
+                  data-apartment="Spacious Two-Bedroom"
+                  >Inquire →</a
+                >
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="sample-note">
+          Apartment types, images and rates above are examples for website
+          design only. Actual inventory and pricing will be confirmed.
+        </p>
+      </div>
+    </section>
+
+    <!-- AMENITIES -->
+    <section id="amenities" class="section amenities">
+      <div class="container">
+        <div class="center-heading">
+          <span class="section-label">EVERYTHING YOU NEED</span>
+          <h2>Comfort in <em>Every Detail</em></h2>
+          <p>Enjoy the conveniences that make your stay feel effortless.</p>
+        </div>
+
+        <div class="amenities-grid">
+          <div class="amenity">
+            <span>⌁</span>
+            <h3>Fast Wi-Fi</h3>
+            <p>Stay connected throughout your visit.</p>
+          </div>
+          <div class="amenity">
+            <span>↥</span>
+            <h3>Lift Access</h3>
+            <p>Easy access to your apartment.</p>
+          </div>
+          <div class="amenity">
+            <span>◈</span>
+            <h3>Gym</h3>
+            <p>Keep up with your fitness routine.</p>
+          </div>
+          <div class="amenity">
+            <span>▣</span>
+            <h3>Smart TV</h3>
+            <p>Relax with your favorite entertainment.</p>
+          </div>
+          <div class="amenity">
+            <span>▶</span>
+            <h3>Netflix</h3>
+            <p>Enjoy shows and movie nights.</p>
+          </div>
+          <div class="amenity">
+            <span>♨</span>
+            <h3>Restaurant Access</h3>
+            <p>Convenient dining options nearby or on-site.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STAY TYPES -->
+    <section class="stay-banner">
+      <div class="container stay-banner-content">
+        <div>
+          <span class="section-label">FLEXIBLE STAYS</span>
+          <h2>A Weekend Away.<br /><em>Or a Longer Escape.</em></h2>
+          <p>
+            Planning a short visit or settling in for a month? Send us your
+            dates and we'll help you find a suitable stay.
+          </p>
+        </div>
+        <a href="#booking" class="btn btn-primary">Make an Inquiry →</a>
+      </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section id="booking" class="section booking">
+      <div class="container booking-grid">
+        <div class="booking-intro">
+          <span class="section-label">LET'S GET YOU SETTLED</span>
+          <h2>Book Your <em>Next Stay</em></h2>
+          <p>
+            Tell us a little about your visit. Complete the inquiry form and
+            we'll help you with apartment options, pricing and availability.
+          </p>
+          <div class="booking-contact">
+            <p>
+              <strong>Location</strong><span>Kilimani, Nairobi, Kenya</span>
+            </p>
+            <p>
+              <strong>Stay options</strong><span>Short stays & long stays</span>
+            </p>
+            <p>
+              <strong>WhatsApp</strong><span>Contact number coming soon</span>
+            </p>
+          </div>
+        </div>
+
+        <form id="bookingForm" class="booking-form">
+          <h3>Send a Booking Inquiry</h3>
+          <p>Fields marked * are required.</p>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guestName">Full Name *</label>
+              <input
+                id="guestName"
+                name="name"
+                type="text"
+                placeholder="Your full name"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="guestEmail">Email Address *</label>
+              <input
+                id="guestEmail"
+                name="email"
+                type="email"
+                placeholder="anewesonga@gmail.com"
+                required
+              />
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="guestPhone">Phone Number *</label>
+              <input
+                id="guestPhone"
+                name="phone"
+                type="tel"
+                placeholder="+254 7XX XXX XXX"
+                required
+              />
+            </div>
+            <div class="form-group">
+              <label for="stayType">Stay Type *</label>
+              <select id="stayType" name="stayType" required>
+                <option value="">Select stay type</option>
+                <option value="Short stay">Short Stay</option>
+                <option value="Long stay">Long Stay</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="apartment">Preferred Apartment *</label>
+            <select id="apartment" name="apartment" required>
+              <option value="">Select apartment</option>
+              <option>Cozy Studio Apartment</option>
+              <option>Elegant One-Bedroom</option>
+              <option>Spacious Two-Bedroom</option>
+              <option>Not sure yet</option>
+            </select>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="checkIn">Check-in *</label>
+              <input id="checkIn" name="checkIn" type="date" required />
+            </div>
+            <div class="form-group">
+              <label for="checkOut">Check-out *</label>
+              <input id="checkOut" name="checkOut" type="date" required />
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="guests">Number of Guests *</label>
+            <input
+              id="guests"
+              name="guests"
+              type="number"
+              min="1"
+              max="20"
+              value="1"
+              required
+            />
+          </div>
+
+          <div class="form-group">
+            <label for="message">Additional Requests</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Tell us about your stay..."
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary submit-btn">
+            Send Booking Inquiry →
+          </button>
+          <p class="form-disclaimer">
+            This is a booking inquiry, not a confirmed reservation. We will
+            contact you to confirm availability and pricing.
+          </p>
+          <p
+            id="formStatus"
+            class="form-status"
+            role="status"
+            aria-live="polite"
+          ></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container footer-grid">
+        <div>
+          <a href="#home" class="logo footer-logo"
+            >Nashy<span>Haven</span><small>STAYS</small></a
+          >
+          <p>Comfortable furnished living in the heart of Kilimani, Nairobi.</p>
+        </div>
+        <div>
+          <h4>Explore</h4>
+          <a href="#about">About Us</a>
+          <a href="#apartments">Apartments</a>
+          <a href="#amenities">Amenities</a>
+        </div>
+        <div>
+          <h4>Stay With Us</h4>
+          <a href="#booking">Short Stays</a>
+          <a href="#booking">Long Stays</a>
+          <a href="#booking">Booking Inquiries</a>
+        </div>
+        <div>
+          <h4>Find Us</h4>
+          <p>Kilimani, Nairobi, Kenya</p>
+          <p>WhatsApp details coming soon</p>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span
+          >© <span id="year"></span> Nashy Haven Stays. All rights
+          reserved.</span
+        >
+        <span>Made for memorable stays.</span>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
